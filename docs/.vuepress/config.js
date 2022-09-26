@@ -1,6 +1,7 @@
 module.exports = {
   title: 'rui-ui-ll组件',
   description: 'Just playing around',
+  base:'/vue-demo/',
   themeConfig:{
     sidebar: [
       {
