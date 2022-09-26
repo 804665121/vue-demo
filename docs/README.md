@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /example.jpeg
+# heroImage: /example.jpeg
 heroText: rui-ui-ll 组件文档
 tagline: hello
 actionText: 快速上手 →
