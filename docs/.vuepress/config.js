@@ -1,4 +1,23 @@
 module.exports = {
-  title: 'Hello VuePress',
-  description: 'Just playing around'
+  title: 'rui-ui-ll组件',
+  description: 'Just playing around',
+  themeConfig:{
+    sidebar: [
+      {
+          title: '组件文档',
+          children:[
+            {
+              title:'快速上手',
+              path:'/componentsDoc/'
+          },
+              {
+                  title:'product组件',
+                  path:'/componentsDoc/product.md'
+              }
+
+          ]
+      }
+
+  ]
+  }
 }

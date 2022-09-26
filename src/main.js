@@ -3,11 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Product from 'run-ui-ll'
 
 Vue.config.productionTip = false
-import UI from 'liulu-vue-test'
-Vue.use(UI);
 /* eslint-disable no-new */
+Vue.use(Product)
 new Vue({
   el: '#app',
   router,

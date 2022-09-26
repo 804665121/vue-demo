@@ -1,16 +1,20 @@
 <template>
   <div id="app">
-    <!-- <List></List> -->
     <List></List>
+    <product name="女装T恤"></product>
   </div>
 </template>
 
 <script>
-  // import List from './components/List'
+// import Product from '../plugins/Product.vue'
+  // import Product from './components/Product.vue'
+  import List from './components/List'
 export default {
   name: 'App',
   components:{
-    // List
+    List
+    // Product,
+    // Product
   }
 }
 </script>
