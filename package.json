@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "element-ui": "^2.15.10",
+    "liulu-vue-test": "file:liulu-vue-test",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
@@ -77,5 +78,20 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "main": ".postcssrc.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/804665121/vue-demo.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/804665121/vue-demo/issues"
+  },
+  "homepage": "https://github.com/804665121/vue-demo#readme"
 }

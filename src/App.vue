@@ -1,12 +1,17 @@
 <template>
   <div id="app">
-    <router-view/>
+    <!-- <List></List> -->
+    <List></List>
   </div>
 </template>
 
 <script>
+  // import List from './components/List'
 export default {
-  name: 'App'
+  name: 'App',
+  components:{
+    // List
+  }
 }
 </script>
 

@@ -5,7 +5,8 @@ import App from './App'
 import router from './router'
 
 Vue.config.productionTip = false
-
+import UI from 'liulu-vue-test'
+Vue.use(UI);
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
